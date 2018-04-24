@@ -77,8 +77,8 @@
   <ItemGroup>
     <Content Include="BlivMedlem.html" />
     <Content Include="CSS.css" />
-    <Content Include="Index.html" />
-    <Content Include="Home.php" />
+    <Content Include="Home.html" />
+    <Content Include="Index.php" />
     <Content Include="myScript.js" />
     <Content Include="Partiet.html" />
     <Content Include="Politik.html" />
