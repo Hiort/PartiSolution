@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DF</title>
+    <link rel="stylesheet" href="CSS.css" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Ubuntu" rel="stylesheet">
+</head>
+<body>
+    
+    <div>
+        <div class="upperNav">
+            <a href="Index.html"><img src="https://danskfolkeparti.dk/wp-content/uploads/2017/09/DFlogo250px.png" /></a>
+        </div>
+        <div class="navbar" id="nav">
+            <ul class="nav_list">
+                <li class="not_last">
+                    <a href="Index.html">Nyheder</a>
+                </li>
+                <li class="not_last">
+                    <a href="Politik.html">Politik</a>
+                </li>
+                <li class="not_last">
+                    <a href="Politiker.html">Politiker</a>
+                </li>
+                <li class="not_last">
+                    <a href="Partiet.html">Partiet</a>
+                </li>
+                <li>
+                    <a href="BlivMedlem.html">Bliv Medlem</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="navFunction()">&#9776;</a>
+        </div>
+    </div>
+    <form onsubmit="return validate()">
+        <div class="container">
+            <h1>Bliv medlem</h1>
+            <p>Udfyld formen for at blive medlem.</p>
+            <hr>
+
+            <label for="navn"><b>Navn</b></label>
+            <input type="text" placeholder="Indtast navn" name="navn" id="navn" required>
+
+            <label for="alder"><b>Alder</b></label><label id="resultalder"></label>
+            <input type="text" placeholder="Indtast alder" name="alder" id="alder" required>
+            
+
+            <label for="email"><b>Email</b></label><label id="resultemail"></label>
+            <input type="text" placeholder="Indtast Email" name="email" id="email" required>
+            
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Indtast Password" name="psw" id="psw" required>
+
+            <label for="pswrepeat"><b>Gentag Password</b></label><label id="resultpsw"></label>
+            <input type="password" placeholder="Gentag Password" name="pswrepeat" id="pswrepeat" required>
+            
+
+            
+
+            <div class="clearfix">
+                <button type="submit" class="button">Tilmeld</button>
+            </div>
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
+</body>
+</html>
