@@ -78,6 +78,7 @@
     <Content Include="BlivMedlem.html" />
     <Content Include="CSS.css" />
     <Content Include="Index.html" />
+    <Content Include="Index.php" />
     <Content Include="myScript.js" />
     <Content Include="Partiet.html" />
     <Content Include="Politik.html" />
